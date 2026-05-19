@@ -427,6 +427,8 @@ h1,h2,h3,h4,h5,h6 {
     background-color: white;
     padding: 7px;
     border-radius: 4px;
+    max-width: 50px;
+    width: 100%;
 }
 .fa-star{
     color: #FFC71E;
@@ -448,8 +450,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .reviews--btn{
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    padding: 30px;
     color: #2B1B12;
 }
 .reviews--btn--left{
@@ -457,4 +458,129 @@ h1,h2,h3,h4,h5,h6 {
 }
 .fa-chevron-right{
     color: #fff;
+}
+.help__title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 140%;
+    max-width: 666px;
+    width: 100%;
+    margin: 160px auto 40px;
+}
+.help__txt__block{
+    display: flex;
+    max-width: 590px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto 10px;
+}
+.help__input__block{
+    display: flex;
+    margin: 0 auto 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.help__field{
+    position: relative;
+    max-width: 505px;
+    width: 100%;
+    margin-right: 20px;
+}
+.fa-envelope{
+    color: #543E32;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+
+}
+.help__input{
+    width: 100%;
+    background-color: #DDC7BB;
+    padding: 20px 25px 20px 57px;
+    max-width: 505px;
+
+}
+.btn--help{
+    padding: 20px 45px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.section__footer{
+
+    background-color: #DDC7BB;
+
+}
+.footer__logo__blocks{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__logo__block{
+    display: block;
+    width: 100%;
+    max-width: 330px;
+
+}
+.footer__logo{
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+.footer__logo__txt{
+    max-width: 220px;
+}
+.footer__col{
+    margin-top: 75px;
+    margin-right: 45px;
+    margin-bottom: 130px;
+}
+.footer__col:last-child{
+    margin-right: 0;
+}
+.foot__col__name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2B1B12;
+    margin-bottom: 45px;
+}
+.footer__list  {
+    text-align: left;
+
+}
+.prod__dots{
+    display: block;
+    color: #4F3527;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.footer__col2{
+    margin-right: 20px;
+}
+.footer__list2{
+    max-width: 156px;
+    padding-left: -10px;
+}
+.footer__list{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.footer__list li{
+    margin-bottom: 40px;
 }
